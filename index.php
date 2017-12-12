@@ -116,23 +116,23 @@
                             <!-- Start Navigation List -->
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
-                                    <a href="#" class="<?php echo ($page == "index" ? "active" : "") ?>" >Home</a>
+                                    <a href="#" class="active" >Home</a>
 
                                 </li>
                                 <li>
-                                    <a href="#" class="<?php echo ($page == "about" ? "active" : "") ?>">About</a>
+                                    <a href="#" class="fd">About</a>
 
                                 </li>
                                 <li>
-                                    <a href="#" class="<?php echo ($page == "services" ? "active" : "") ?>">Services</a>
+                                    <a href="#" >Services</a>
 
                                 </li>
                                 <li>
-                                    <a href="#" class="<?php echo ($page == "Testimonials" ? "active" : "") ?>">Testimonial</a>
+                                    <a href="#" >Testimonial</a>
 
                                 </li>
 
-                                <li><a href="#" class="<?php echo ($page == "contact" ? "active" : "") ?>">Contact</a>
+                                <li><a href="#" >Contact</a>
                                 </li>
                             </ul>
                             <!-- End Navigation List -->
