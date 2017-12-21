@@ -6,7 +6,7 @@
     <head>
 
         <!-- Basic -->
-        <title>Kitchen | Home </title>
+        <title>Kitchen | Contact </title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -37,6 +37,7 @@
         <script type="text/javascript"  src = "vender_lib/isotope/isotope.pkgd.min.js" ></script>
         <script type="text/javascript"  src = "vender_lib/jquery.mb.YTPlayer.js" ></script>
         <script type="text/javascript"  src = "vender_lib/jquery.nicescroll.min.js" ></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
 
     <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -52,7 +53,7 @@
             <header class="clearfix">
 
                 <!-- Start Top Bar -->
-                <div class="top-bar">
+                <div class="top-bar bg-black">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
@@ -99,7 +100,7 @@
 
 
                 <!-- Start  Logo & Naviagtion  -->
-                <div class="navbar fixed-nav navbar-default navbar-top">
+                <div class="navbar fixed-nav navbar-default navbar-top bg_green">
                     <div class="container">
                         <div class="navbar-header">
                             <!-- Stat Toggle Nav Link For Mobiles -->
@@ -120,11 +121,11 @@
 
                                 </li>
                                 <li>
-                                    <a href="about.php" class="<?php echo ($page == "about" ? "active" : "") ?>">About</a>
+                                    <a href="#" class="<?php echo ($page == "about" ? "active" : "") ?>">About</a>
 
                                 </li>
                                 <li>
-                                    <a href="aristo.php" class="<?php echo ($page == "services" ? "active" : "") ?>">Services</a>
+                                    <a href="#" class="<?php echo ($page == "services" ? "active" : "") ?>">Services</a>
 
                                 </li>
                                 <li>
@@ -132,7 +133,7 @@
 
                                 </li>
 
-                                <li><a href="contact.php" class="<?php echo ($page == "contact" ? "active" : "") ?>">Contact</a>
+                                <li><a href="#" class="<?php echo ($page == "contact" ? "active" : "") ?>">Contact</a>
                                 </li>
                             </ul>
                             <!-- End Navigation List -->
@@ -143,404 +144,185 @@
 
             </header> 
             <!-- End Header Section -->
-            <!-- Start Home Page Slider -->
-            <section id="home">
-                <!-- Carousel -->
-                <div id="main-slide" class="carousel slide" data-ride="carousel">
-
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-                        <li data-target="#main-slide" data-slide-to="1"></li>
-                        <li data-target="#main-slide" data-slide-to="2"></li>
-                    </ol>
-                    <!--/ Indicators end-->
-
-                    <!-- Carousel inner -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated2 white">
-                                        <span>Reliable & Effective </span>
-                                    </h2>
-                                    <h3 class="animated3 pista">
-                                        <span>Kitchen Solution</span>
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                        <div class="item">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated4 white">
-                                        <span>Genuine Service</span>
-                                    </h2>
-                                    <h3 class="animated5 pista">
-                                        <span>We Are Ready </span>
-                                    </h3>	
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                        <div class="item">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated7 white">
-                                        <span>Right Time To Design   </span>
-                                    </h2>
-                                    <h3 class="animated5 pista">
-                                        <span>Just Give Us Missed Call </span>
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                    </div>
-                    <!-- Carousel inner end-->
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#main-slide" data-slide="prev">
-                        <span><i class="fa fa-angle-left"></i></span>
-                    </a>
-                    <a class="right carousel-control" href="#main-slide" data-slide="next">
-                        <span><i class="fa fa-angle-right"></i></span>
-                    </a>
-                </div>
-                <!-- /carousel -->
-            </section>
-            <!-- End Home Page Slider -->
-
-            <div class="steps_section section section_padding">
+            <!-- Start Page Banner -->
+            <div class="page-banner">
                 <div class="container">
-                    <div class="section-title">
-                        <h2> Easy Way To Transform Living</h2>
-                        <p>
-                            We provide centralised and specialized Legal services to multifarious clients and business. 
-                        </p>
-                    </div>
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">1</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>ASSESSMENT</h4>
-                                    <p>We'll fully understand your needs and your expectations in a detailed site visit.</p>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <h2>Contact us</h2>
+                           
                         </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">2</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>Design</h4>
-                                    <p>You'll get a design that keeps your space, budget and storage needs in mind.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">3</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>INSTALLATION</h4>
-                                    <p>The components and parts are installed in your home and a final inspection is done.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">4</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>WARRANTY</h4>
-                                    <p>All of our designs and hardware come with a 5 year warranty along with a year's free maintenance</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section intro_video section_padding section_bg">
-                <div class="container">
-                    <div class="col-md-5">
-                        <div class="video_box">
-                            <img src="http://embed.wistia.com/deliveries/f8bd71b52d6fb319e5d5a8a147996c938ceceda7.jpg?image_crop_resized=640x360">
-                            <div class="box_overlay"></div>
-                            <i class="fab fa-youtube video_icon"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="video_content">
-                            <h1>About Kitchen</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id elementum Quisque sed urna sed nisl bibendum efficitur. Suspendisse a rhoncus risus. Vivamus tempus, quam vehicula tristique faucibus, lorem tellus egestas turpis, vitae bibendum ante orci a eros. Etiam quis aliquet odio, vel eleifend sem</p>
-                            <ul class="info_list">
-                                <li><i class="fa fa-check-circle"></i> Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>  
-
+                        <div class="col-md-6">
+                            <ul class="breadcrumbs">
+                                <li><a href="index.php">Home</a></li>
+                                <li>Contact us</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-            <div class="section_padding section">
-
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1 class="text-center">Design You Love</h1>
-
-                            <div class="portfolio-filter">
-
-                                <ul>
-                                    <li>
-                                        <a class="active selected" href="#" data-filter=".term-0">ARISTO</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-1">STYLUS</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-2">GLOSSY</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-3">BLING</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-4">ARTIZE</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-5">SMARTECO</a>
-                                    </li>
-
-                                </ul>
-
-                            </div><!-- end .portfolio-filter -->
-
-                        </div><!-- end .span12 -->
-                    </div><!-- end .row -->
-                </div><!-- end .container -->
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-
-                            <div class="portfolio-grid three-cols gutter portfolio-isotope">
-                                <div class="item term-0">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-aristo.jpg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-                                <div class="item term-1">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-stylus.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-2">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-gloss.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-3">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-bling.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-4">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-artize.jpg.transform/sleekTransformerWidth768Height281/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-5">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-smarteco.jpg.transform/sleekTransformerWidth768Height281/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-
-                            </div><!-- end .portfolio-grid -->
-
-                        </div><!-- end .span12 -->
-                    </div><!-- end .row -->
-                </div><!-- end .container -->
+            <!-- End Page Banner -->
+
+
+        
+        <!-- Start Map -->
+        <div id="map" data-position-latitude="19.24559" data-position-longitude="72.9836473"></div>
+        <script>
+            (function ( $ ) {
+                $.fn.CustomMap = function( options ) {
+                    
+                    var posLatitude = $('#map').data('position-latitude'),
+                    posLongitude = $('#map').data('position-longitude');
+                    
+                    var settings = $.extend({
+                        home: { latitude: posLatitude, longitude: posLongitude },
+                        text: '<div class="map-popup"><h4>Web Development | ZoOm-Arts</h4><p>A web development blog for all your HTML5 and WordPress needs.</p></div>',
+                        icon_url: $('#map').data('marker-img'), 
+                        zoom: 15
+                    }, options );
+                    
+                    var coords = new google.maps.LatLng(settings.home.latitude, settings.home.longitude);
+                    
+                    return this.each(function() {   
+                        var element = $(this);
+                        
+                        var options = {
+                            zoom: settings.zoom,
+                            center: coords,
+                            mapTypeId: google.maps.MapTypeId.ROADMAP,
+                            mapTypeControl: false,
+                            scaleControl: false,
+                            streetViewControl: false,
+                            panControl: true,
+                            disableDefaultUI: true,
+                            zoomControlOptions: {
+                                style: google.maps.ZoomControlStyle.DEFAULT
+                            },
+                            overviewMapControl: true,   
+                        };
+                        
+                        var map = new google.maps.Map(element[0], options);
+                        
+                        var icon = { 
+                            url: settings.icon_url, 
+                            origin: new google.maps.Point(0, 0)
+                        };
+                        
+                        var marker = new google.maps.Marker({
+                            position: coords,
+                            map: map,
+                            icon: icon,
+                            draggable: false
+                        });
+                        
+                        var info = new google.maps.InfoWindow({
+                            content: settings.text
+                        });
+                        
+                        google.maps.event.addListener(marker, 'click', function() { 
+                            info.open(map, marker);
+                        });
+                        
+                        var styles = [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
+                        
+                        map.setOptions({styles: styles});
+                    });
+
+};
+}( jQuery ));
+
+jQuery(document).ready(function() {
+    jQuery('#map').CustomMap();
+});
+</script>
+<!-- End Map -->
+
+
+
+
+<!-- Start Content -->
+<div id="content">
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-8">
+                
+                <!-- Classic Heading -->
+                <h4 class="classic-title"><span>Contact Us</span></h4>
+                
+                <!-- Start Contact Form -->
+    <form role="form" class="contact-form" id="contact-form" method="post">
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" placeholder="Name" name="name">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="email" class="email" placeholder="Email" name="email">
+    </div>
+    </div>
+    <div class="form-group">
+    <div class="controls">
+    <input type="text" class="requiredField" placeholder="Subject" name="subject">
+    </div>
+    </div>
+
+    <div class="form-group">
+
+    <div class="controls">
+    <textarea rows="7"  placeholder="Message" name="message"></textarea>
+    </div>
+    </div>
+    <button type="submit" id="submit" class="btn-system btn-large">Send</button><div id="success" style="color:#34495e;"></div>
+    </form>
+                <!-- End Contact Form -->
+                
             </div>
-
-
-            <div class="section">
-                <!--WORKS / PORTFOLIO SECTION END  -->
-                <div id="video-sec" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=c48bUZFzlfI',containment:'self',autoPlay:true, mute:true, startAt:0, opacity:1,mute: true,showControls:false}">
-                    <div class="overlay">
-                        <div class="container">
-                            <div class="row text-center">
-                                <div class="col-md-12">
-                                    <h1>Get Inspired By Beautiful Design</h1>
-                                    <h4><strong>We Design your kitchen beautiful</strong>
-
-                                    </h4>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- VIDEO SECTION END-->
+            
+            <div class="col-md-4">
+                
+                <!-- Classic Heading -->
+                <h4 class="classic-title"><span>Information</span></h4>
+                
+                <!-- Some Info -->
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+                
+                <!-- Divider -->
+                <div class="hr1" style="margin-bottom:10px;"></div>
+                
+                <!-- Info - Icons List -->
+                <ul class="icons-list">
+                    <li><i class="fa fa-globe">  </i> <strong>Address:</strong> OMMAG, Thane, Mumbai.</li>
+                    <li><i class="fa fa-envelope"></i> <strong>Email:</strong> sales@ommang.in</li>
+                    <li><i class="fa fa-phone"></i> <strong>Phone:</strong> 08652222123</li>
+                </ul>
+                
+                <!-- Divider -->
+                <div class="hr1" style="margin-bottom:15px;"></div>
+                
+                <!-- Classic Heading -->
+                <h4 class="classic-title"><span>Working Hours</span></h4>
+                
+                <!-- Info - List -->
+                <ul class="list-unstyled">
+                    <li><strong>Monday - Friday</strong> - 9am to 5pm</li>
+                    <li><strong>Saturday</strong> - 9am to 2pm</li>
+                    <li><strong>Sunday</strong> - Closed</li>
+                </ul>
+                
             </div>
+            
+        </div>
+        
+    </div>
+</div>
+<!-- End content -->
+
+
+
+
             <!-- Start Footer Section -->
             <footer>
                 <div class="container">
@@ -679,9 +461,10 @@
 
         </div>
         <!-- End Full Body Container -->
+
         <script>
             /*----------------------------------------------------*/
-            /*	Portfolio Isotope
+            /*  Portfolio Isotope
              /*----------------------------------------------------*/
             $(document).ready(function($) {
                 jQuery(window).load(function() {
@@ -754,7 +537,7 @@
                 });
 
                 /*----------------------------------------------------*/
-                /*	Sticky Header
+                /*  Sticky Header
                  /*----------------------------------------------------*/
 
                 (function() {

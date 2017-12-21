@@ -6,7 +6,7 @@
     <head>
 
         <!-- Basic -->
-        <title>Kitchen | Home </title>
+        <title>Kitchen | Aristo </title>
 
         <!-- Define Charset -->
         <meta charset="utf-8">
@@ -52,7 +52,7 @@
             <header class="clearfix">
 
                 <!-- Start Top Bar -->
-                <div class="top-bar">
+                <div class="top-bar bg-black">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
@@ -99,7 +99,7 @@
 
 
                 <!-- Start  Logo & Naviagtion  -->
-                <div class="navbar fixed-nav navbar-default navbar-top">
+                <div class="navbar fixed-nav navbar-default navbar-top bg_green">
                     <div class="container">
                         <div class="navbar-header">
                             <!-- Stat Toggle Nav Link For Mobiles -->
@@ -120,11 +120,11 @@
 
                                 </li>
                                 <li>
-                                    <a href="about.php" class="<?php echo ($page == "about" ? "active" : "") ?>">About</a>
+                                    <a href="#" class="<?php echo ($page == "about" ? "active" : "") ?>">About</a>
 
                                 </li>
                                 <li>
-                                    <a href="aristo.php" class="<?php echo ($page == "services" ? "active" : "") ?>">Services</a>
+                                    <a href="#" class="<?php echo ($page == "services" ? "active" : "") ?>">Services</a>
 
                                 </li>
                                 <li>
@@ -132,7 +132,7 @@
 
                                 </li>
 
-                                <li><a href="contact.php" class="<?php echo ($page == "contact" ? "active" : "") ?>">Contact</a>
+                                <li><a href="#" class="<?php echo ($page == "contact" ? "active" : "") ?>">Contact</a>
                                 </li>
                             </ul>
                             <!-- End Navigation List -->
@@ -143,381 +143,174 @@
 
             </header> 
             <!-- End Header Section -->
-            <!-- Start Home Page Slider -->
-            <section id="home">
-                <!-- Carousel -->
-                <div id="main-slide" class="carousel slide" data-ride="carousel">
-
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-                        <li data-target="#main-slide" data-slide-to="1"></li>
-                        <li data-target="#main-slide" data-slide-to="2"></li>
-                    </ol>
-                    <!--/ Indicators end-->
-
-                    <!-- Carousel inner -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated2 white">
-                                        <span>Reliable & Effective </span>
-                                    </h2>
-                                    <h3 class="animated3 pista">
-                                        <span>Kitchen Solution</span>
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                        <div class="item">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated4 white">
-                                        <span>Genuine Service</span>
-                                    </h2>
-                                    <h3 class="animated5 pista">
-                                        <span>We Are Ready </span>
-                                    </h3>	
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                        <div class="item">
-                            <img class="img-responsive" src="images/kitchen_b1.jpg" alt="slider">
-                            <div class="slider-content">
-                                <div class="col-md-12 text-center">
-                                    <h2 class="animated7 white">
-                                        <span>Right Time To Design   </span>
-                                    </h2>
-                                    <h3 class="animated5 pista">
-                                        <span>Just Give Us Missed Call </span>
-                                    </h3>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Carousel item end -->
-                    </div>
-                    <!-- Carousel inner end-->
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#main-slide" data-slide="prev">
-                        <span><i class="fa fa-angle-left"></i></span>
-                    </a>
-                    <a class="right carousel-control" href="#main-slide" data-slide="next">
-                        <span><i class="fa fa-angle-right"></i></span>
-                    </a>
-                </div>
-                <!-- /carousel -->
-            </section>
-            <!-- End Home Page Slider -->
-
-            <div class="steps_section section section_padding">
+            <!-- Start Page Banner -->
+            <div class="page-banner">
                 <div class="container">
-                    <div class="section-title">
-                        <h2> Easy Way To Transform Living</h2>
-                        <p>
-                            We provide centralised and specialized Legal services to multifarious clients and business. 
-                        </p>
-                    </div>
                     <div class="row">
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">1</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>ASSESSMENT</h4>
-                                    <p>We'll fully understand your needs and your expectations in a detailed site visit.</p>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <h2>Aristo</h2>
+                           
                         </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">2</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>Design</h4>
-                                    <p>You'll get a design that keeps your space, budget and storage needs in mind.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">3</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>INSTALLATION</h4>
-                                    <p>The components and parts are installed in your home and a final inspection is done.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="step_box">
-                                <div class="step_num">
-                                    <span class="digit_num">4</span>
-                                </div>
-                                <div class="step_title">
-                                    <h4>WARRANTY</h4>
-                                    <p>All of our designs and hardware come with a 5 year warranty along with a year's free maintenance</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section intro_video section_padding section_bg">
-                <div class="container">
-                    <div class="col-md-5">
-                        <div class="video_box">
-                            <img src="http://embed.wistia.com/deliveries/f8bd71b52d6fb319e5d5a8a147996c938ceceda7.jpg?image_crop_resized=640x360">
-                            <div class="box_overlay"></div>
-                            <i class="fab fa-youtube video_icon"></i>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="video_content">
-                            <h1>About Kitchen</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id elementum Quisque sed urna sed nisl bibendum efficitur. Suspendisse a rhoncus risus. Vivamus tempus, quam vehicula tristique faucibus, lorem tellus egestas turpis, vitae bibendum ante orci a eros. Etiam quis aliquet odio, vel eleifend sem</p>
-                            <ul class="info_list">
-                                <li><i class="fa fa-check-circle"></i> Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>
-                                <li><i class="fa fa-check-circle"></i>Etiam accumsan, risus mollis volutpat consectetur</li>  
-
+                        <div class="col-md-6">
+                            <ul class="breadcrumbs">
+                                <li><a href="index.php">Home</a></li>
+                                <li>Aristo</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- End Page Banner -->
+            <div class="bspoke_section section section_padding">
+                <div class="container">
+                    <div class="section-title">
+                        <h2> BESPOKE COLLECTION</h2>
+                        <p>
+                       Our BESPOKE COLLECTION, as the name suggests, is TAILOR-MADE for individual preferences and requirements of a customer. Once we come aboard, our team of designers will visit the space, discover the PERSONAL TASTES, aesthetics and functional requirements of the customer, understand the nuances of the family and home, suggest efficient TECHNOLOGICAL INNOVATIONS, and will customize the design as per the specifications. We’ll then create the modular kitchen, install the same and continue FINE-TUNING the installation till you exult with joy like the hundreds of satisfied customers who swear by our Bespoke Collection.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="quality_box">
+                            <div class="img_box">
+                                <img src="images/kitchen_b1.jpg" alt="quality_img" class="bspoke_img">
+                            </div>
+                            <div class="text_box">
+                                <div class="text_box_content">
+                                    <div class="content_title">
+                                        <h1>Aristo</h1>
+                                    </div>
+                                    <div class="box_content">
+                                        <p>Opt for classy with this Modern English look. Five-piece veneer shutters with open grain patina, a natural wood finish, English pastels, latticed panes and pigeonholes for storage all add to the elegance of your kitchen.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <div class="section section_padding custome_dsection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                 <div class="section-title">
+                        <h2> Cutomization In Aristo</h2>
+                    </div>
+            </div>
+            <!-- Page Content -->
+                    <div class="col-md-12 page-content">
+                        
+                        <div class="tabs-section">
+                            
+                            <!-- Nav Tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#tab-1" data-toggle="tab">Module</a></li>
+                                <li><a href="#tab-2" data-toggle="tab">Shutters</a></li>
+                                <li><a href="#tab-3" data-toggle="tab">Cabinates</a></li>
+                                <li ><a href="#tab-4" data-toggle="tab">Accessories</a></li>
+                                <li><a href="#tab-5" data-toggle="tab">Hardware</a></li>
+                                <li><a href="#tab-6" data-toggle="tab">Applience</a></li>
+                            </ul>
+                            
+                            <!-- Tab panels -->
+                            <div class="tab-content">
+                                <!-- Tab Content 1 -->
+                                <div class="tab-pane fade in active" id="tab-1">
+                                 <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                                <!-- Tab Content 2 -->
+                                <div class="tab-pane fade" id="tab-2">
+                                  <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                                <!-- Tab Content 3 -->
+                                <div class="tab-pane fade" id="tab-3">
+                                <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                                <div class="tab-pane fade" id="tab-4">
+                                <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                                <div class="tab-pane fade" id="tab-5">
+                                <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                                <div class="tab-pane fade" id="tab-6">
+                                <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/infinite-customisation/Aristo-Modules.jpg">
+                                </div>
+                            </div>
+                            <!-- End Tab Panels -->
+                            
+                        </div>
+                
+                        
+                    </div>
+                    <!-- End Page Content -->
+        </div>
+    </div>
+ </div>
 
 
 
 
-            <div class="section_padding section">
+            <div class="section_padding award_section">
 
                 <div class="container">
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <h1 class="text-center">Design You Love</h1>
-
-                            <div class="portfolio-filter">
-
-                                <ul>
-                                    <li>
-                                        <a class="active selected" href="#" data-filter=".term-0">ARISTO</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-1">STYLUS</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-2">GLOSSY</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-3">BLING</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-4">ARTIZE</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-filter=".term-5">SMARTECO</a>
-                                    </li>
-
-                                </ul>
-
-                            </div><!-- end .portfolio-filter -->
+                              <div class="section-title">
+                            <h2 class="text-center">THE KITCHEN TODAY DEFINES YOUR PERSONA</h2>
+</div>
 
                         </div><!-- end .span12 -->
                     </div><!-- end .row -->
                 </div><!-- end .container -->
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-
-                            <div class="portfolio-grid three-cols gutter portfolio-isotope">
-                                <div class="item term-0">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-aristo.jpg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-                                <div class="item term-1">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-stylus.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-2">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-gloss.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-3">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-bling.jpg.transform/sleekTransformerWidth1296Height475/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-4">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-artize.jpg.transform/sleekTransformerWidth768Height281/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-                                <div class="item term-5">
-
-                                    <div class="portfolio-item">
-
-                                        <div class="portfolio-item-preview">			
-
-                                            <img src="https://www.sleekworld.com/content/dam/sleek-final/Home/kitchen-carousel/desktop/hp-array-smarteco.jpg.transform/sleekTransformerWidth768Height281/image.jpeg" alt="">
-
-                                            <div class="portfolio-item-overlay">
-
-                                                <div class="portfolio-item-description">
-
-                                                    <h4>
-                                                        <a href="#">Learn More</a>
-                                                    </h4>
-
-
-
-                                                </div><!-- end .portfolio-item-description -->
-
-                                            </div><!-- end .portfolio-item-overlay -->
-
-                                        </div><!-- end .portfolio-item-preview -->
-
-                                    </div><!-- end .portfolio-item -->
-
-                                </div><!-- end .item -->
-
-
-                            </div><!-- end .portfolio-grid -->
-
-                        </div><!-- end .span12 -->
-                    </div><!-- end .row -->
-                </div><!-- end .container -->
+         <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="awards_box">
+                        <div class="award_img_box">
+                            <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/design-elements/hand-crafted-design.jpg" class="" alt="awwards">
+                        </div>
+                        <div class="awards_info">
+                            <h2>Hand-crafted design</h2>
+                           
+                            <div class="award_loc">
+                                <p>Exquisite hand-crafted 5 piece veneer shutters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="awards_box">
+                        <div class="award_img_box">
+                            <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/design-elements/hand-crafted-design.jpg" class="" alt="awwards">
+                        </div>
+                        <div class="awards_info">
+                            <h2>Hand-crafted design</h2>
+                           
+                            <div class="award_loc">
+                                <p>Exquisite hand-crafted 5 piece veneer shutters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="awards_box">
+                        <div class="award_img_box">
+                            <img src="https://www.sleekworld.com/content/dam/sleek-final/kitchen-details/aristo/design-elements/hand-crafted-design.jpg" class="" alt="awwards">
+                        </div>
+                        <div class="awards_info">
+                            <h2>Hand-crafted design</h2>
+                           
+                            <div class="award_loc">
+                                <p>Exquisite hand-crafted 5 piece veneer shutters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+         </div>
             </div>
 
 
@@ -541,6 +334,70 @@
                 </div>
                 <!-- VIDEO SECTION END-->
             </div>
+
+
+<div class="section_padding con_wiget">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+         
+         <div class="con_box">
+           <div class="con_icon">
+            <i class="fa fa-map-marker icon"></i>
+           </div>
+           <div class="con_title">
+              <h2>Call Us</h2>
+           </div>
+<div class="con_text">
+    <p>We are always ready to help you </p>
+
+</div>
+ <a href="#" class="con_btn">Contact</a>
+
+            </div>
+        </div>
+                <div class="col-md-4">
+         
+         <div class="con_box">
+           <div class="con_icon">
+            <i class="fa fa-book icon"></i>
+           </div>
+           <div class="con_title">
+              <h2>See Our Design</h2>
+           </div>
+<div class="con_text">
+    <p>We have some most beautiful design for your kitchen </p>
+
+</div>
+ <a href="#" class="con_btn">Download</a>
+
+            </div>
+        </div>
+                <div class="col-md-4">
+         
+         <div class="con_box">
+           <div class="con_icon">
+            <i class="fa fa-envelope icon"></i>
+           </div>
+           <div class="con_title">
+              <h2>Mail Us</h2>
+           </div>
+<div class="con_text">
+    <p>Mail us your custome requirement . </p>
+
+</div>
+ <a href="#" class="con_btn">Mail Us</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
             <!-- Start Footer Section -->
             <footer>
                 <div class="container">
@@ -681,7 +538,7 @@
         <!-- End Full Body Container -->
         <script>
             /*----------------------------------------------------*/
-            /*	Portfolio Isotope
+            /*  Portfolio Isotope
              /*----------------------------------------------------*/
             $(document).ready(function($) {
                 jQuery(window).load(function() {
@@ -754,7 +611,7 @@
                 });
 
                 /*----------------------------------------------------*/
-                /*	Sticky Header
+                /*  Sticky Header
                  /*----------------------------------------------------*/
 
                 (function() {
