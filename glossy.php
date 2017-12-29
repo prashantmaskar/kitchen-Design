@@ -6,13 +6,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2>Aristo</h2>
+                            <h2>glossy</h2>
                            
                         </div>
                         <div class="col-md-6">
                             <ul class="breadcrumbs">
                                 <li><a href="index.php">Home</a></li>
-                                <li>Aristo</li>
+                                <li>glossy</li>
                             </ul>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                             <div class="text_box">
                                 <div class="text_box_content">
                                     <div class="content_title">
-                                        <h1>Aristo</h1>
+                                        <h1>glossy</h1>
                                     </div>
                                     <div class="box_content">
                                         <p>Opt for classy with this Modern English look. Five-piece veneer shutters with open grain patina, a natural wood finish, English pastels, latticed panes and pigeonholes for storage all add to the elegance of your kitchen.</p>
@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-md-12">
                  <div class="section-title">
-                        <h2> Cutomization In Aristo</h2>
+                        <h2> Cutomization In glossy</h2>
                     </div>
             </div>
             <!-- Page Content -->

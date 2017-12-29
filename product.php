@@ -5,13 +5,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2>Portfolio</h2>
+                            <h2>Product</h2>
                            
                         </div>
                         <div class="col-md-6">
                             <ul class="breadcrumbs">
                                 <li><a href="index.php">Home</a></li>
-                                <li>Portfolio</li>
+                                <li>Product</li>
                             </ul>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                 <div class="row portfolio-page">
                     
                     <!-- Start Recent Projects Carousel -->
-                <ul id="portfolio-list" data-animated="fadeIn">
+                <ul id="portfolio-list" class="Product_list" data-animated="fadeIn">
                     <li>
                         <img src="images/kitchen_b1.jpg" alt="" />
                         <div class="portfolio-item-content">

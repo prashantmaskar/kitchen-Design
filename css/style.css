@@ -572,6 +572,7 @@ ul.social-list li a svg {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     color: #fff;
+    padding-top: 15px;
 }
 
 .navbar-default .navbar-nav {
@@ -610,7 +611,10 @@ ul.social-list li a svg {
     border-color: #77bc25;
     color: #77bc25;
 }
-
+.navbar-default .navbar-nav > li.drop:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+}
 .navbar-default .navbar-nav > li > a i {
     margin: 0 -2px 0 -5px;
 }
@@ -806,7 +810,28 @@ ul.social-list li a svg {
     top: 0;
     z-index: 20;
 }
-
+.bg_green{
+    background: #77bc25;
+}
+.bg-black{
+    background: #3e3e3e;
+}
+.bgblck{
+ background: #3e3e3e !important;   
+}
+.bggreen{
+    background: #77bc25 !important;
+}
+.bg_green .navbar-nav > li > a.active, .bg_green .navbar-nav > li:hover > a {
+    border-bottom: 2px solid;
+    border-color: #f9c020;
+    color: #f9c020;
+}
+.bggreen .navbar-nav > li > a.active, .bggreen .navbar-nav > li:hover > a {
+    border-bottom: 2px solid !important;
+    border-color: #f9c020 !important;
+    color: #f9c020 !important;
+}
 /*================================================== 
      Slideshow
  ================================================== */
@@ -1515,8 +1540,48 @@ and (min-width : 551px){
 #portfolio-list li .portfolio-item-content {
     background: rgba(255, 152, 0, 0.68);
 }
+.visit_form input, .modal_form input, .modal_form textarea{
+    border-radius: 20px;
+    margin-top: 4px;
+    color: #000;
+}
 
+.book_visitform h2{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.book_info{
+        margin-top: -60px;
+    padding: 50px 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.175);
+    box-shadow: 0 0 12px rgba(0,0,0,0.175);
+}
+.h30_box{
+    height: 30px;
+}
+#book_btn{
+        width: 155px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 4px;
+    box-shadow: none;
+    border: 0px;
+    background: #77bc25;
+    border-radius: 50px;
+}
 
+.design_items{
+    margin-top: 20px;
+    padding: 20px;
+}
+.design_slide .item{
+    margin: 5px;
+    border: 2px solid #77bc25;
+}
 /*================================================== 
     Legal-best
  ================================================== */
@@ -2297,7 +2362,7 @@ textarea {
     position: absolute;
     width: 100%;
     left: 0;
-    bottom:-5px;
+    
 }
 
 .owl-theme .owl-controls .owl-page{
@@ -2849,12 +2914,7 @@ ul.footer-nav li a:hover {
     -moz-box-shadow: 0 0 6px rgba(0,0,0,.1);
     -webkit-box-shadow: 0 0 6px rgba(0,0,0,.1);
 }
-.bg_green{
-    background: #77bc25;
-}
-.bg-black{
-    background: #3e3e3e;
-}
+
 .navbar-brand h2{
     color: #fff;
 }
